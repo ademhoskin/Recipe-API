@@ -1,5 +1,4 @@
-from django.test import TestCase
-from psycopg2 import OperationalError as Psycopg2OpError
+from django.test import TestCase g2OpError
 from unittest.mock import patch
 
 from django.core.management import call_command
