@@ -1,4 +1,4 @@
-from django.test import TestCase # noqa: F401
+from django.test import TestCase  # noqa: F401
 from psycopg2 import OperationalError as Psycopg2OpError
 from unittest.mock import patch
 
